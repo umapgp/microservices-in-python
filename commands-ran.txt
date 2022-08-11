@@ -1,0 +1,16 @@
+ 1059  helm
+ 1060  pip install helm
+ 1061  helm
+ 1062  curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+ 1063  chmod 700 get_helm.sh
+ 1064  ./get_helm.sh
+ 1065  helm
+ 1066  helm create webapp
+ 1067  helm template webapp
+ 1068  helm template webapp
+ 1069  helm template webapp
+ 1070  helm template webapp
+ 1071  helm install webapp webapp/
+ 1072  helm list
+ 1073  kubectl get pods
+ 1074  kubectl get po,svc
